@@ -8,6 +8,7 @@ body {
   .topnav {
     overflow: hidden;
     background-color: #333;
+    border-radius:  0px 0px 5px 5px;
    
 }
   
@@ -39,6 +40,7 @@ body {
     text-align: center;
     text-decoration: none;
     padding: 1px;
+    border-radius: 5px 5px 0px 0px ;
 
 }
 /*primeira sessão da pagina, sessao jogos */
@@ -47,6 +49,7 @@ body {
     width: 100%;
     overflow: hidden;
     text-decoration: none;
+    
         
 }
 
@@ -57,13 +60,18 @@ body {
     height: 100px;
     color: white;
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 1px;
     padding-left: 0px;
     padding-bottom: 30px;
     text-align: left;
+    border: 2px;
+    border-radius: 5px 5px 0px 0px ;
+    
+    
 }
 
 .titulo{
+    text-shadow: 2px 2px 7px #04AA6D;
     float: left;
     font-size: 60px;
     margin-top: 0px;
@@ -75,6 +83,7 @@ body {
 }
 
 .pgames{
+    text-shadow: 2px 2px 7px #04AA6D;
     overflow: hidden;
     float: left;
     margin-top: 0px;
@@ -116,6 +125,8 @@ body {
     width: 100%;
     height: 100px;
     overflow: hidden;
+    border: 2px ;
+    border-radius: 5px;
 }
 
 .linkimagem {
@@ -133,12 +144,14 @@ body {
     height: 100px;
     overflow: hidden;
     text-decoration: none;
-    margin-top: 8px
+    margin-top: 8px;
+    border-radius: 5px 5px 0px 0px ;
    
 }
 
 
 .titulodefi{
+    text-shadow: 2px 2px 7px #04AA6D;
     color: white;
     float: left;
     margin-top: 25px;
@@ -149,10 +162,83 @@ body {
 }
 
 .pdefi{
+    text-shadow: 2px 2px 7px #04AA6D;
     color: white;
     float: left;
     padding-left: 15px;
     padding-top: 50px;
     position: absolute;
    
+}
+
+.POSI{
+    float: left;
+    height: 56px;
+    margin-right: 50px;
+    padding-right: 0px;
+    overflow: hidden;
+    border: 2px;
+    border-radius: 5px;
+}
+
+.cake{
+    float: left;
+    height: 57px;
+    margin-right: 50px;
+    overflow: hidden;
+    border: 2px ;
+    border-radius: 5px;
+
+}
+
+.klay{
+    float: right;
+    height: 56px;
+    overflow: hidden;
+    border: 2px;
+    border-radius: 5px;
+}
+
+/* Divisão da Cefi */
+
+.cefi{
+    background-image: url(img/cefibanner.png);
+    color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin-top: 5px;
+    border: 2px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.hcefi{
+    text-shadow: 2px 2px 7px #04AA6D;
+    color: white;
+    float: left;
+    margin-top: 25px;
+    height: 38px;
+    margin-left: 35px;
+
+}
+
+.pcefi{
+    text-shadow: 2px 2px 7px #04AA6D;
+    float: left;
+    padding-left: 15px;
+    padding-top: 50px;
+    position: absolute;
+    
+
+}
+
+.bnb{`
+    float: left;
+    overflow: hidden;
+    margin-left: 350px;
+    width: 300px;
+    height: 100px;
+    border: 2px;
+    border-radius: 5px;
 }
