@@ -1,0 +1,158 @@
+body {
+    width: 1000px;
+    position: center;
+    margin: auto ;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+   
+}
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    border: 2px #04AA6D;
+    border-radius: 5px;
+    padding: 15px;
+  }
+/*titulo da pagina*/
+#titulo{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 1px;
+
+}
+/*primeira sessão da pagina, sessao jogos */
+.jogos a{
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    text-decoration: none;
+        
+}
+
+
+ .games{
+    background-image: url(img/axie.png);
+    width: 100%;
+    height: 100px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.titulo{
+    float: left;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+
+.pgames{
+    overflow: hidden;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 10px;
+
+}
+
+.zoon{
+    float: left;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    
+}
+
+.PVU{
+    float: left;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    
+}
+
+.Blockmon{
+    float: left;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+   
+}
+
+.Chumbi {
+    float: left;
+    width: 1050px;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.linkimagem {
+    margin-top: 3px;
+}
+
+/*sessão defi*/
+
+.defis{
+    float: left;
+    background-color: white;
+    background-image: url(img/defi.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: 8px
+   
+}
+
+
+.titulodefi{
+    color: white;
+    float: left;
+    margin-top: 25px;
+    height: 38px;
+    margin-left: 35px;
+    
+   
+}
+
+.pdefi{
+    color: white;
+    float: left;
+    padding-left: 15px;
+    padding-top: 50px;
+    position: absolute;
+   
+}
